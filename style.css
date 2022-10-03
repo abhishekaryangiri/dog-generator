@@ -1,0 +1,55 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top, #fff000 0%, #f78ad4 100%);
+    text-align: center;
+}
+.head {
+    color: black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 75%;
+    /* border: 1px solid black; */
+    /* background: linear-gradient(-210deg, #fbafaf 30%, rgba(210, 35, 35, 0) 30%), url('planets.jpg'); */
+    background: linear-gradient(to top, #fff000 0%, #f78ad4 100%);
+    text-align: center;
+}
+
+.container h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 13px 27px;
+    font-size: 19px;
+    background-color: rgb(8, 84, 8);
+    color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-box img{
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.71);
+}
+
+
+.text-center {
+    color: black;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: -35px;
+    text-align: center;
+    
+   
+}
